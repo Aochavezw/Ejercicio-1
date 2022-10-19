@@ -16,7 +16,22 @@ fa.Saludo()
 
 fa.get_resistor_code('Rojo-Púrpura-Verde')
 
+
+"""3.- Crear una función que la entrada sea un año, y este de como salida si es un año bisiesto o no.
+•Un año bisiesto en el calendario gregoriano:
+•Por lo cual entra cada año que es divisible por 4, excepto los años que son divisibles por 100, a menos que el año también sea divisible por 400"""
+
 fa.isleap(2016)
+
+"""Calcula los siguientes ejemplos:
+                Tierra 1,000,000,000:
+                Mercurio 2134835688:
+                Venus 189839836:
+                Marte 2129871239:
+                Jupiter 901876382:
+                Saturno 2,000,000,000:
+                Urano 1210123456:
+                Neptuno 1821023456"""
 
 fa.get_planetary_age('Tierra',1000000000)
 fa.get_planetary_age('Mercurio',2134835688)
