@@ -15,7 +15,7 @@ def get_resistor_code(cadena):
     "Blanco": 9
     }
 
-    cadena='Rojo-Púrpura-Verde'
+    
     resistors=cadena.split('-')
     if len(resistors)>=2:
       resistorcode=str(resistor_map[resistors[0]]) + str(resistor_map[resistors[1]])
